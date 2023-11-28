@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <script src="https://install.idpartner.com/script.js"></script> -->
+    <script src="http://localhost:4004/button.js"></script>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='{{ url_for("static", filename="style.css") }}' />
+  </head>
+  <body>
+    <id-partner id="{{ config.get('client_id') }}"></id-partner>
+  </body>
+</html>
