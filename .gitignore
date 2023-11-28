@@ -1,0 +1,26 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+venv/
+.env/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Local development files
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE-specific
+.idea/
+.vscode/
+
