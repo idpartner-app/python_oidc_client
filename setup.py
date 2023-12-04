@@ -6,7 +6,7 @@ setup(
     author='IDPartner',
     author_email='engineering-external@idpartner.com',
     description='A Python client for interacting with OpenID Connect providers.',
-    long_description="""The IDPartner gem offers a Python client for OpenID Connect providers, streamlining
+    long_description="""The IDPartner package offers a Python client for OpenID Connect providers, streamlining
                         authorization, token acquisition, and user information retrieval. It supports various
                         authentication methods and handles endpoint discovery via well-known configuration. The
                         package simplifies JWT generation, signing, and verifying, making OpenID Connect integration
