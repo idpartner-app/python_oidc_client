@@ -30,6 +30,23 @@ To check the code for style compliance using Flake8, run:
 flake8
 ```
 
+
+## Publish in PyPI
+
+Build the dist folder:
+```bash
+python setup.py sdist bdist_wheel
+```
+Upload it:
+```bash
+twine upload dist/*
+```
+Insert creds:
+```bash
+username = __token__
+password = pypi-XXXXXX-XXXXXX
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [https://github.com/idpartner-app/python_oidc_client](https://github.com/idpartner-app/python_oidc_client).
